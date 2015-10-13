@@ -1,2 +1,2 @@
 # Game-Development
-Dean Arthur Adrian Declan
+James Arthur Adrian Declan
