@@ -1,0 +1,29 @@
+So, for this game we need to have two canons that are simultaniously protecting their base (located behind them) 
+while trying to destroy the opposing base.
+In addition to the incoming fire from the other player there will be soldiers spawning from the ememy base 
+that will damage the players base should they reach it.
+At random intervals bonuses will spawn that will help the player who shoots them first.
+
+Breakdown:
+
+Canons
+We will need to code it so the canons can move up and down within a set space.
+We will need to code it so that the canons can fire at a certain rate of fire.
+We will need to code it so that canons can block incomming fire to a point.
+We will need to code it so that canos explode if taking too much fire and respawn after a few seconds.
+
+Base
+We will need to code it so the base has a set visable health.
+We will need to code it so the base loses health when a shot collides with it.
+We will need to code it so the base loses health when a soldier collides with it.
+We will need to code it so that soldiers can spawn from the base.
+
+Soldiers
+We will need to code it so that soldiers hit by enemy shots are destroyed.
+
+Bonuses
+We will need to code a bonus that restores health to the base
+We will need to code a bonus that increases the canon's rate of fire for a set time.
+We will need to code a bonus that that makes a players soldiers take two shots to destroy for a short time.
+We will need to code a bonus that destroy the enemy players canon.
+Others will be fun... 
