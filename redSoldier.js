@@ -2,13 +2,15 @@
 
 var redSoldier: Rigidbody2D;
 var redSpeed: float = -3.0;
+var redSolHealth: int = 1;
 
-Invoke("redSpawn",3);
+Invoke("redSpawn",2);
 function Start () {
 }
 function Update () {
-	//soldierCollision(blue_Soldier(Clone));
-	//destroyOffScreen();
+	if (redSolHealth <= 0){
+		Destroy(gameObject);
+	}
 }
 
 function redSpawn(){
@@ -18,22 +20,8 @@ function redSpawn(){
 	redSoldierInstance.velocity = new Vector2(redSpeed, 0);
 }
 
-/*  Can't get the collisions working properly...help welcome...but will
-	continue to work on it.
-	
-function soldierCollision(other:Collision2D){
-	if(other.gameObject.name=="blue_Soldier(Clone)"){
-		Destroy(other.gameObject);
-		Destroy(gameObject);
+function OnCollisionEnter2D(other:Collision2D){
+  	if(other.gameObject.name=="blue_Soldier(Clone)"){
+		redSolHealth --;  
 	}
 }
-
-	Having trouble with this...any help welcome
-	Just want to make sure the soldiers are destroyed if they go off Screen.
-
-function destroyOffScreen(){
-	if(redSoldier.x >= 13.0){
-		Destroy(GameObject);
-	}
-}
-*/
