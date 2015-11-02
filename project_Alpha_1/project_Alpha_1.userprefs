@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Cannon_1.js">
     <Files>
-      <File FileName="Assets\Code\green_chassis.js" Line="14" Column="21" />
-      <File FileName="Assets\Code\Cannon_1.js" Line="2" Column="34" />
+      <File FileName="Assets\Code\Cannon_1.js" Line="14" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

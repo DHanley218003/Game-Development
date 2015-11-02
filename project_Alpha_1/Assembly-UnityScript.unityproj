@@ -46,14 +46,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Code\Blue_Base.js" />
-     <Compile Include="Assets\Code\Blue_Bullet.js" />
      <Compile Include="Assets\Code\Blue_Soldier.js" />
      <Compile Include="Assets\Code\Cannon_1.js" />
      <Compile Include="Assets\Code\Cannon_2.js" />
+     <Compile Include="Assets\Code\Green_Bullet.js" />
      <Compile Include="Assets\Code\Red_Base.js" />
      <Compile Include="Assets\Code\Red_Bullet.js" />
      <Compile Include="Assets\Code\Red_Soldier.js" />
      <Compile Include="Assets\Code\green_chassis.js" />
+     <Compile Include="Assets\Code\red_chassis.js" />
      <Compile Include="Assets\Code\testCode.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

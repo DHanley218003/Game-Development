@@ -2,7 +2,7 @@
 var speed:float = 6;
 function Start () 
 { 
-	transform.position = GameObject.Find("red_Chassis").transform.position;
+	transform.position = GameObject.Find("green_Chassis").transform.position;
 	transform.Translate(Vector3.left*speed*Time.deltaTime);
 }
 
