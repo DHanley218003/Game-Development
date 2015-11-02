@@ -50,23 +50,18 @@
      <Compile Include="Assets\Code\Cannon_1.js" />
      <Compile Include="Assets\Code\Cannon_2.js" />
      <Compile Include="Assets\Code\Green_Bullet.js" />
+     <Compile Include="Assets\Code\MainMenu.js" />
      <Compile Include="Assets\Code\Red_Base.js" />
      <Compile Include="Assets\Code\Red_Bullet.js" />
      <Compile Include="Assets\Code\Red_Soldier.js" />
      <Compile Include="Assets\Code\green_chassis.js" />
      <Compile Include="Assets\Code\red_chassis.js" />
      <Compile Include="Assets\Code\testCode.js" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
