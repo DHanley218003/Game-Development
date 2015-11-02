@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Red_Base.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Cannon_1.js">
     <Files>
-      <File FileName="Assets\Code\Blue_Base.js" Line="35" Column="3" />
-      <File FileName="Assets\Code\Red_Base.js" Line="13" Column="3" />
-      <File FileName="Assets\Code\Blue_Soldier.js" Line="28" Column="1" />
-      <File FileName="Assets\Code\Red_Soldier.js" Line="28" Column="1" />
+      <File FileName="Assets\Code\green_chassis.js" Line="14" Column="21" />
+      <File FileName="Assets\Code\Cannon_1.js" Line="2" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
