@@ -45,27 +45,22 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Code\Blue_Base.js" />
-     <Compile Include="Assets\Code\Blue_Soldier.js" />
-     <Compile Include="Assets\Code\Green_Bullet.js" />
-     <Compile Include="Assets\Code\Red_Base.js" />
-     <Compile Include="Assets\Code\Red_Bullet.js" />
-     <Compile Include="Assets\Code\Red_Soldier.js" />
-     <Compile Include="Assets\Code\green_cannon.js" />
-     <Compile Include="Assets\Code\green_chassis.js" />
-     <Compile Include="Assets\Code\red_cannon.js" />
-     <Compile Include="Assets\Code\red_chassis.js" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\Code\Green\Blue_Base.js" />
+     <Compile Include="Assets\Code\Green\Blue_Soldier.js" />
+     <Compile Include="Assets\Code\Green\Green_Bullet.js" />
+     <Compile Include="Assets\Code\Green\green_cannon.js" />
+     <Compile Include="Assets\Code\Green\green_chassis.js" />
+     <Compile Include="Assets\Code\MainMenu.js" />
+     <Compile Include="Assets\Code\Red\Red_Base.js" />
+     <Compile Include="Assets\Code\Red\Red_Bullet.js" />
+     <Compile Include="Assets\Code\Red\Red_Soldier.js" />
+     <Compile Include="Assets\Code\Red\red_cannon.js" />
+     <Compile Include="Assets\Code\Red\red_chassis.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

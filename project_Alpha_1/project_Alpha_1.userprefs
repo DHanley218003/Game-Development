@@ -1,6 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Green\green_cannon.js">
+    <Files>
+      <File FileName="Assets\Code\Green\green_cannon.js" Line="45" Column="78" />
+      <File FileName="Assets\Code\Green\Blue_Soldier.js" Line="20" Column="59" />
+      <File FileName="Assets\Code\Green\Green_Bullet.js" Line="12" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
