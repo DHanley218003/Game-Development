@@ -11,6 +11,8 @@ function OnGUI()
 		MainMenu();
 	if(CurrentMenu == "Credits")
 		Credits();
+	if(CurrentMenu == "Tutorial")
+		Tutorial();
 }
 
 function NavGate(nextMenu:String)
@@ -24,11 +26,15 @@ function MainMenu()
 	{
 		Application.LoadLevel("AoW");
 	}
-	if(GUI.Button (new Rect(500, 200, 200, 50), "Credits"))
+	if(GUI.Button (new Rect(500, 200, 200, 50), "Tutorial"))
+	{
+		NavGate("Tutorial");
+	}
+	if(GUI.Button (new Rect(500, 250, 200, 50), "Credits"))
 	{
 		NavGate("Credits");
 	}
-	if(GUI.Button (new Rect(500, 250, 200, 50), "Exit"))
+	if(GUI.Button (new Rect(500, 300, 200, 50), "Exit"))
 	{
 		Application.Quit();
 	}
@@ -37,6 +43,14 @@ function MainMenu()
 function Credits()
 {
 	(GUI.Button (new Rect(500, 150, 200, 100), "Developed by James Blakeley,\n Adrian Flaherty,\nArthur Franca\n and Declan Hanley"));
+	if(GUI.Button (new Rect(500, 250, 200, 50), "Back"))
+	{
+		NavGate("Main");
+	}
+}
+
+function Tutorial()
+{
 	if(GUI.Button (new Rect(500, 250, 200, 50), "Back"))
 	{
 		NavGate("Main");
